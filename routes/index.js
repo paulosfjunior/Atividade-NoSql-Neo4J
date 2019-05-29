@@ -54,8 +54,6 @@ function cadastrarPessoa(req, res) {
   const t = req.body.relacao;
   const d = req.body.destino;
 
-  console.log({o, t, d})
-
   if (o && t && d) {
     neo4j.cadastrar({id: uuid(), nome: o})
       .then((r) => {
