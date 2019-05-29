@@ -29,3 +29,5 @@
 > [Paulo Freitas](https://gitlab.com/paulosfjunior)
 
 > [Ricardo Heiji](https://gitlab.com/Heiji)
+
+### [Politica de Privacidade](https://gitlab.com/paulosfjunior/atividade-nosql-neo4j/wikis/Pol%C3%ADtica-de-Privacidade)

@@ -65,3 +65,6 @@ typings/
 
 # nao controlar a wiki pelo git do projeto
 wiki/
+
+# arquivo com informações de configuração
+.env
