@@ -176,8 +176,6 @@ function carregarGrafo(req, res) {
         }
       }
 
-      console.log(r)
-
       res.render('graph', {titulo: 'Conexões Linkedin', gf: r});
     })
     .catch((e) => res.redirect('/'));
