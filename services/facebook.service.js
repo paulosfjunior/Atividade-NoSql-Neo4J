@@ -2,12 +2,13 @@ const Bluebird = require('bluebird');
 const request = require('request');
 const url = require('url');
 const os = require('os');
-const fb = require('fb');
 
 const servico = {};
 
 servico.gerarTokenMembro = gerarTokenMembro;
 servico.getPerfilUsuario = getPerfilUsuario;
+
+// https://codeforgeek.com/facebook-login-using-nodejs-express/
 
 module.exports = servico;
 

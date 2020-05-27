@@ -1,22 +1,6 @@
 extends layout
 
 block content
-  if alerta
-    div(id="myModal", class="modal show")
-      div.modal-dialog.modal-confirm
-        div.modal-content
-          div.modal-header
-            div.icon-box
-              i(class="fas fa-check")
-
-            h4.modal-title Cadastrado!
-
-          div.modal-body
-            p.text-center O cadastro foi realizado com sucesso, clique em OK para continuar.
-
-          div.modal-footer
-            button(class="btn btn-success btn-block", data-dismiss="modal") OK
-
   div.signup-form
     form(action="/c", method="post")
       h2 Cadastrar Familia
